@@ -1,0 +1,56 @@
+{
+	"items": [
+	{
+		"name": "Cover for KUAL/KOL/HOTFIX",
+		"priority": -998,
+		"items": [
+		{
+            "name": "Set cover for KUAL",
+            "priority": 1,
+            "action": "bin/set1.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "Remove cover for KUAL",
+            "priority": 2,
+            "action": "bin/unset1.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "Set cover for KOL",
+            "priority": 3,
+            "action": "bin/set2.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "Remove cover for KOL",
+            "priority": 4,
+            "action": "bin/unset2.sh",
+            "exitmenu": false
+		},
+				{
+            "name": "Set cover for HOTFIX",
+            "priority": 5,
+            "action": "bin/set3.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "Remove cover for HOTFIX",
+            "priority": 6,
+            "action": "bin/unset3.sh",
+            "exitmenu": false
+		},
+		{
+			"name": "Authors",
+			"priority": 1000,
+			"exitmenu": false,
+			"checked": true,
+			"status": false,
+			"refresh": false,
+			"action": "xxxx",
+			"internal": "status cearp,Dark_AssassinUA,Targit,Stanner,Aadvik5951(For English Translation)"
+		}
+		]
+	}
+	]
+}
